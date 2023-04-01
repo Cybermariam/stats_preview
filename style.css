@@ -100,19 +100,21 @@ h1 {
 }
 @media only screen and (min-width: 365px) and (max-width: 600px){
     body {
-        align-items: flex-start;
+        
         text-align: center;
     }
     .container {
         grid-template-columns: 1fr;
-
-        margin: 2rem;
+        margin: 1rem;
+    }
+    .card{
+        width: 100%;
     }
     .image_container {
         order: -1;
     }
     .text_container {
-        padding: 8%;
+        padding: 6%;
     }
     .stats_container {
         flex-direction: column;   
