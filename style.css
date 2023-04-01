@@ -34,7 +34,7 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: var(--Dark-desaturated-blue-card-background);
-    border-radius: 15px;
+    border-radius: 12px;
     overflow: hidden;
     margin: 2rem;
 }
@@ -75,7 +75,7 @@ h1 {
 }
 .text_paragraph {
     color: var(--Slightly-transparent-white-main-paragraph);
-    line-height: 1.6;
+    line-height: 1.8;
     margin-bottom: 4rem;
 }
 .stats_container {
@@ -92,6 +92,7 @@ h1 {
 .stats_edit {
     text-transform: lowercase;
 }
+
 .company_stats p {
     text-transform: uppercase;
     color: var(--Slightly-transparent-white-stat-headings);
@@ -120,7 +121,7 @@ h1 {
         flex-direction: column;   
     }
     .company_stats {
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
     }
     .text_paragraph {
         margin-bottom: 2rem;
